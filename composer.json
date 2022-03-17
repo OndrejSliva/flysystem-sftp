@@ -7,11 +7,17 @@
                 "League\\Flysystem\\PhpseclibV2\\": ""
         }
     },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/OndrejSliva/flysystem"
+        }
+    ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "league/flysystem": "^2.0.0",
+        "league/flysystem": "2.5",
         "league/mime-type-detection": "^1.0.0",
-        "phpseclib/phpseclib": "^2.0"
+        "phpseclib/phpseclib": "^3.0"
     },
     "license": "MIT",
     "authors": [
